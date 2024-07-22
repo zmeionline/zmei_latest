@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+body {
+  background-image: radial-gradient(rgb(35, 35, 35) 10%, transparent 10%);
+  background-position: 8px 8px;
+  background-size: 16px 16px;
+  background-color: rgb(15, 15, 30);
+  background-attachment: fixed; /* Asigură că fundalul rămâne fix */
+  margin: 0; /* Elimină marginile implicite */
+  font-family: sans-serif; /* Stilizează fontul, dacă este necesar */
+}
+:root {
+  --polka-bg-image: radial-gradient(rgb(45, 45, 45) 10%, transparent 10%);
+  --polka-bg-position: 8px 8px;
+  --polka-bg-size: 16px 16px;
+  --polka-bg-color: rgb(15, 15, 30);
+}
+
+/* Stilul pentru fundalul cu polka */
+.polka {
+  background-image: var(--polka-bg-image);
+  background-position: var(--polka-bg-position);
+  background-size: var(--polka-bg-size);
+  background-color: var(--polka-bg-color);
+}
+
+.polka-lightblue {
+  background-image: var(--polka-bg-image);
+  background-position: var(--polka-bg-position);
+  background-size: var(--polka-bg-size);
+  background-color: var(--polka-bg-color);
+}
+
+.polka-blur {
+  background-image: var(--polka-bg-image), var(--blue-blur);
+  background-position: var(--polka-bg-position), center;
+  background-size: var(--polka-bg-size), cover;
+  background-color: var(--polka-bg-color);
+}
+
+.orange-gradient {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 165, 0, 0.8),
+    rgba(255, 69, 0, 0.8)
+  );
+}
+
+.oval-polka {
+  position: absolute;
+  top: 10%; /* Ajustează poziția verticală a pătii */
+  right: -10%; /* Ajustează poziția orizontală a pătii */
+  transform: rotate(80deg); /* Rotirea pății cu 80 de grade */
+  width: 200px; /* Dimensiune pata ovală */
+  height: 400px; /* Dimensiune pata ovală */
+  border-radius: 50%; /* Formă ovală */
+  background-image: radial-gradient(rgb(45, 45, 45) 10%, transparent 10%);
+  background-position: 8px 8px;
+  background-size: 16px 16px;
+  background-color: rgba(15, 15, 30, 0.5); /* Opacitate redusă */
+  z-index: -1; /* Plasăm în spatele conținutului */
+}

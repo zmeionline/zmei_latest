@@ -1,0 +1,75 @@
+{
+  "header": {
+    "message": "Coming Soon",
+    "text": "At Zmei, we're not just building services; we're pouring our hearts and dreams into enhancing the way want operate within the IT space. We love this industry because it's one of the true realms of innovation, where every challenge presents an opportunity to push boundaries and create something extraordinary. From the thrill of solving intricate problems, to the joy of learning and connecting with like-minded individuals, consulting is where we truly shine. We believe in the power of Agile Principles, guiding us through the ever-changing landscape with adaptability and efficiency. We believe in sincere collaboration, that true success stems from a shared vision and collective effort, and above all, we believe in common growth. Imagine having a partner that is as dedicated to your success as you are. That's us. ",
+    "subheader": "Are you ready to experience IT consulting and services at their finest?",
+    "subscribe": "Thank your for subscribing!"
+  },
+  "home": {
+    "body": "Coming soon"
+  },
+  "button": {
+    "text": "Add me"
+  },
+  "email": {
+    "text": "At Zmei, we harness innovation and expertise to transform digital hurdles into pathways for growth.  We do this with our expert staff and out relentless pursuit towards excellence. Discover how our expertise can elevate your digital journey.",
+    "field": "Your e-mail"
+  },
+  "language": {
+    "en": "EN"
+  },
+
+  "cookies": {
+    "text": "I declare that I have read the terms and conditions."
+  },
+
+  "expertise": {
+    "h1": "Integrating Vision and Innovation with Strategic Insight and Technical Expertise",
+    "h2": "Transform challenges into opportunities with our expertise in design, process optimization and implementation. ",
+    "design": "Design",
+    "design.strategy": "IT Strategy",
+    "design.strategy.text": "Crafting a forward-thinking IT strategy is essential for driving business innovation and growth. Our strategic consulting services help you define clear objectives, align technology investments with business goals, and navigate complex IT challenges to stay ahead in today's dynamic market landscape.",
+    "design.system": "System & Process",
+    "design.system.text": "Our comprehensive approach to system design addresses every business aspect, from requirements engineering to implementation, optimisation, governance and compliance.",
+    "process": "Process",
+    "process.agile": "Agile & Scrum",
+    "process.agile.text": "Embracing Agile methodologies like Scrum empowers teams to deliver high-quality software products iteratively and adaptively. Our Agile coaching and foster collaboration, transparency, and innovation, enabling your organization to respond swiftly to changing market demands and deliver value to customers with speed and flexibility.",
+    "process.software": "Software Engineering and Optimization",
+    "process.software.text": "From conceptualization to deployment, we leverage industry best practices and innovative methodologies to engineer and improve solutions and processes to meet the desired goals of the product. ",
+    "technical": "Technical",
+    "technical.software": "Software Testing",
+    "technical.software.text": "Quality assurance is paramount in delivering reliable and resilient software solutions. Our testing services encompass functional, performance, and usability testing, utilizing industry-leading tools and methodologies to identify and mitigate risks throughout the product lifecyle.",
+    "technical.architecture": "Software Architecture:",
+    "technical.architecture.text": "Building a solid architectural foundation is critical for future-proofing software solutions. Our architectural expertise are designed to ensure that the software quality meets business objectives and technology roadmap."
+  },
+
+  "aboutus": {
+    "title": "About Us",
+    "text": "The founders, Alex and Daniela, met in Copenhagen and, united by their passion for business, forged a strong friendship that became the foundation of Zmei. Recognizing the opportunity at the intersection of Scandinavian work culture and Romanian technical prowess, they envisioned a company that would address Denmark's IT personnel shortage with top Romanian talent, driving European growth."
+  },
+  "getintouch": {
+    "title": "How can we help you?",
+    "text": "Get in touch with us"
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "text": "Thank you for your interest. How can we assist you? Explore our expertise and services, or follow us on social media. For other inquiries, please fill out the contact form below and we'll get back to you as soon as possible",
+    "email": "Your email",
+    "subject": "Subject",
+    "message": "Your message",
+    "button": "Send message"
+  },
+  "navbar": {
+    "knowuss": "Get to know us",
+    "expertise": "Expertise",
+    "careers": "Careers",
+    "contactus": "Contact Us",
+    "blog": "Blog"
+  },
+  "footer": {
+    "company": "Company",
+    "contact": "Contact",
+    "newsletter": "NewsLetter",
+    "email": "contact@zmei.eu"
+  }
+}

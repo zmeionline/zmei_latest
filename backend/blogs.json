@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1719129373631,
+    "title": "dsadsa",
+    "text": "dasdadsada",
+    "subtitle": "",
+    "additionalText": "",
+    "author": "dsadsa",
+    "date": "dsadsa",
+    "imageUrl": "/uploads/1719129373609.png",
+    "extraImageUrl": "/uploads/1719129373624.webp",
+    "textPreview": ""
+  },
+  {
+    "id": 1719129850327,
+    "title": "dsadsad",
+    "text": "dadsadasda",
+    "subtitle": "",
+    "additionalText": "",
+    "author": "dasdada",
+    "date": "das",
+    "imageUrl": "/uploads/1719129850317.webp",
+    "extraImageUrl": "/uploads/1719129850323.jpg",
+    "textPreview": ""
+  },
+  {
+    "id": 1719217300076,
+    "title": "Where does it come from",
+    "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+    "subtitle": "Subtitle",
+    "additionalText": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\"",
+    "author": "horica",
+    "date": "02.02.2024",
+    "imageUrl": "/uploads/1719217300066.webp",
+    "extraImageUrl": "/uploads/1719217300073.png",
+    "textPreview": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  Latin professor at Hampden....."
+  }
+]

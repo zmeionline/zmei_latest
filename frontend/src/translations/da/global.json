@@ -1,0 +1,77 @@
+{
+  "header": {
+    "message": "Kommer Snart",
+    "text": "Hos Zmei bygger vi ikke bare tjenester; vi lægger vores hjerter og drømme i at forbedre den måde, vi ønsker at arbejde på inden for it-området. Vi elsker denne branche, fordi den er et af de sande områder for innovation, hvor enhver udfordring giver mulighed for at skubbe grænser og skabe noget ekstraordinært. Fra spændingen ved at løse indviklede problemer til glæden ved at lære og komme i kontakt med ligesindede, er konsulentarbejde der, hvor vi virkelig skinner. Vi tror på styrken i de agile principper, som leder os gennem det evigt foranderlige landskab med tilpasningsevne og effektivitet. Vi tror på oprigtigt samarbejde, at ægte succes stammer fra en fælles vision og en kollektiv indsats, og frem for alt tror vi på fælles vækst. Forestil dig at have en partner, der er lige så dedikeret til din succes, som du er. Det er os.",
+    "subheader": "Er du klar til at opleve it-rådgivning og -tjenester, når de er bedst?",
+    "subscribe": "Tak for tilmelding!"
+  },
+  "home": {
+    "body": "Kommer Snart"
+  },
+  "button": {
+    "text": "Tilføj mig"
+  },
+  "email": {
+    "text": "Efterlad din e-mailadresse nedenfor for at få et eksklusivt første kig på vores innovative løsninger. Ingen spam, kun de væsentlige opdateringer - det er et løfte.",
+    "field": "Din e-mail"
+  },
+  "language": {
+    "da": "DA"
+  },
+
+  "cookies": {
+    "text": "Jeg erklærer, at jeg har læst vilkårene og betingelserne."
+  },
+
+  "expertise": {
+    "h1": "Integrating Vision and Innovation with Strategic Insight and Technical Expertise",
+    "h2": "Omdan udfordringer til muligheder med vores ekspertise inden for design, procesoptimering og implementering.",
+    "design": "Design",
+    "design.strategy": "IT-strategi",
+    "design.strategy.text": "Udarbejdelse af en fremadrettet it-strategi er afgørende for at drive innovation og vækst i virksomheden. Vores strategiske konsulentydelser hjælper dig med at definere klare mål, tilpasse teknologiinvesteringer til forretningsmål og navigere i komplekse it-udfordringer for at være på forkant i dagens dynamiske markedslandskab.",
+    "design.system": "System og proces",
+    "design.system.text": " Vores omfattende tilgang til systemdesign adresserer alle forretningsaspekter, fra kravspecifikation til implementering, optimering, styring og compliance.",
+    "process": "Proces",
+    "process.agile": "Agile & Scrum",
+    "process.agile.text": "Agile metoder som Scrum giver teams mulighed for at levere softwareprodukter af høj kvalitet iterativt og adaptivt. Vores agile coaching og fremme af samarbejde, gennemsigtighed og innovation gør det muligt for din organisation at reagere hurtigt på skiftende markedskrav og levere værdi til kunderne med hastighed og fleksibilitet.",
+    "process.software": "Softwareudvikling og-optimering",
+    "process.software.text": "Fra konceptualisering til implementering udnytter vi branchens bedste praksis og innovative metoder til at udvikle og forbedre løsninger og processer, så de opfylder de ønskede mål for produktet. ",
+    "technical": "Teknisk",
+    "technical.software": "Software Testing",
+    "technical.software.text": "Kvalitetssikring er altafgørende for at kunne levere pålidelige og robuste softwareløsninger. Vores testtjenester omfatter funktions-, ydelses- og brugervenlighedstest, hvor vi bruger brancheførende værktøjer og metoder til at identificere og afbøde risici i hele produktets livscyklus.",
+    "technical.architecture": "Software arkitektur",
+    "technical.architecture.text": "Opbygning af et solidt arkitektonisk fundament er afgørende for at fremtidssikre softwareløsninger. Vores arkitektoniske ekspertise er designet til at sikre, at softwarekvaliteten opfylder forretningsmålene og den teknologiske køreplan."
+  },
+
+  "aboutus": {
+    "title": "Om Os",
+    "text": "Grundlæggerne, Alex og Daniela, mødtes i København og, forenet af deres passion for forretning, dannede et stærkt venskab, som blev fundamentet for Zmei. De så en mulighed i krydsfeltet mellem skandinavisk arbejdskultur og rumænsk teknisk dygtighed og forestillede sig en virksomhed, der kunne afhjælpe Danmarks mangel på it-personale med rumænsk toptalent og skabe europæisk vækst."
+  },
+
+  "getintouch": {
+    "title": "Hvordan kan vi hjælpe dig?",
+    "text": "Kom i kontakt med os"
+  },
+  "contactUs": {
+    "title": "Kontakt os",
+    "text": "Tak for din interesse. Hvordan kan vi hjælpe dig? Udforsk vores ekspertise og tjenester, eller følg os på sociale medier. For andre henvendelser, udfyld venligst kontaktformularen nedenfor, så vender vi tilbage til dig hurtigst muligt.",
+    "email": " Din email",
+    "subject": "Emne",
+    "message": "Din besked",
+    "button": " Send besked"
+  },
+
+  "footer": {
+    "company": "Firma",
+    "contact": "Kontakt",
+    "newsletter": "Nyhedsbrev",
+    "email": "contact@zmei.eu"
+  },
+  "navbar": {
+    "knowuss": "Lær os at kende",
+    "expertise": "Ekspertise",
+    "careers": "Karriere",
+    "contactus": "Kontakt os",
+    "blog": "daneza"
+  }
+}
