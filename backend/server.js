@@ -13,7 +13,17 @@ const app = express();
 const port = 5000;
 
 // Middleware
-app.use(cors({ origin: "https://zmei.eu" })); // Permite cererile din domeniul tău live
+app.use(
+  cors({
+    origin: "https://zmei.eu",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
+app.use((req, res, next) => {
+  console.log(`Received request: ${req.method} ${req.url}`);
+  next();
+});
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
