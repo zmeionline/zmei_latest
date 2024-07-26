@@ -164,7 +164,7 @@ function LatestBlog() {
           <div className="md:w-8/12 w-full mb-8 md:mb-0 ">
             {latestBlog.imageUrl && (
               <img
-                src={`https://zmei-final-v2.onrender.com/${latestBlog.imageUrl}`}
+                src={`https://zmei-final-v2.onrender.com/uploads/${latestBlog.imageUrl}`}
                 alt={latestBlog.title}
                 className="w-full h-full object-cover rounded-md shadow-lg"
               />

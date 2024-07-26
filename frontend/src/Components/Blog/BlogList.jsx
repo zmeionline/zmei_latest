@@ -12,7 +12,9 @@ function BlogList() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/blogs");
+        const response = await fetch(
+          "https://zmei-final-v2.onrender.com/api/blogs"
+        );
         if (response.ok) {
           const data = await response.json();
           // Reverse the blogs array to display the most recent first
@@ -52,7 +54,7 @@ function BlogList() {
               <div className="flex flex-col md:flex-row md:items-center">
                 {blog.imageUrl && (
                   <img
-                    src={`http://localhost:5000${blog.imageUrl}`}
+                    src={`https://zmei-final-v2.onrender.com/uploads/${blog.imageUrl}`}
                     alt={blog.title}
                     className="w-full md:w-1/3 h-40 object-cover rounded-sm mb-4 md:mb-0 md:mr-4"
                   />
