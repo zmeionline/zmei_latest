@@ -248,7 +248,7 @@ function BlogDetail() {
     const fetchBlog = async () => {
       try {
         const response = await fetch(
-          `https://zmei-final-v2.onrender.com/api/blogs/${id}`
+          `https://zmei-final-v2-zdqj.onrender.com/api/blogs/${id}`
         );
         if (response.ok) {
           const data = await response.json();
