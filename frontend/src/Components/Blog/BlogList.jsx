@@ -18,6 +18,7 @@ function BlogList() {
         if (response.ok) {
           const data = await response.json();
           // Reverse the blogs array to display the most recent first
+          console.log(data); // Adaugă acest console.log pentru a vedea ce conține data
           setBlogs(data.reverse());
         } else {
           setError("Failed to fetch blogs");
@@ -54,7 +55,11 @@ function BlogList() {
               <div className="flex flex-col md:flex-row md:items-center">
                 {blog.imageUrl && (
                   <img
-                    src={`https://zmei-final-v2.onrender.com/uploads/${blog.imageUrl}`}
+                    src={
+                      blog.imageUrl.startsWith("/uploads/")
+                        ? `https://zmei-final-v2.onrender.com${blog.imageUrl}`
+                        : `https://zmei-final-v2.onrender.com/uploads/${blog.imageUrl}`
+                    }
                     alt={blog.title}
                     className="w-full md:w-1/3 h-40 object-cover rounded-sm mb-4 md:mb-0 md:mr-4"
                   />
