@@ -57,8 +57,8 @@ function BlogList() {
                   <img
                     src={
                       blog.imageUrl.startsWith("/uploads/")
-                        ? `https://zmei-final-v2.onrender.com${blog.imageUrl}`
-                        : `https://zmei-final-v2.onrender.com/uploads/${blog.imageUrl}`
+                        ? `https://zmei-final-v2-zdqj.onrender.com${blog.imageUrl}`
+                        : `https://zmei-final-v2-zdqj.onrender.com/uploads/${blog.imageUrl}`
                     }
                     alt={blog.title}
                     className="w-full md:w-1/3 h-40 object-cover rounded-sm mb-4 md:mb-0 md:mr-4"

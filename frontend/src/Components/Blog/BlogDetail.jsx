@@ -324,8 +324,8 @@ function BlogDetail() {
                 <img
                   src={
                     blog.extraImageUrl.startsWith("/uploads/")
-                      ? `https://zmei-final-v2.onrender.com${blog.extraImageUrl}`
-                      : `https://zmei-final-v2.onrender.com/uploads/${blog.extraImageUrl}`
+                      ? `https://zmei-final-v2-zdqj.onrender.com${blog.extraImageUrl}`
+                      : `https://zmei-final-v2-zdqj.onrender.com/uploads/${blog.extraImageUrl}`
                   }
                   alt={`${blog.title} extra image`}
                   className="w-full h-90 object-cover object-center mb-6"
