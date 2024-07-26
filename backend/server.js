@@ -15,7 +15,7 @@ const port = 5000;
 // Middleware
 app.use(
   cors({
-    origin: "https://zmei.eu",
+    origin: ["https://zmei.eu", "http://localhost:5173"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
