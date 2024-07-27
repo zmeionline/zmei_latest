@@ -52,7 +52,7 @@ function Careers() {
       <div data-aos="fade-up" className="py-8 pt-10 pb-20">
         <div className="max-w-screen-lg mx-auto px-4">
           <section data-aos="fade-up" id="workplaceculture" className="mb-12">
-            <h3 className="text-2xl font-semibold text-blue-600 mb-4">
+            <h3 className="text-2xl font- text-blue-600 mb-4">
               Workplace Culture
             </h3>
             <p className="text-slate-300">

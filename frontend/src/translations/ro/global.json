@@ -69,7 +69,7 @@
   },
   "getintouch": {
     "title": "Cum te putem ajuta?",
-    "text": "Trimite-ne un mesaj"
+    "text": "Luati legatura cu noi"
   },
   "contactUs": {
     "title": "Contactează-ne",
@@ -85,12 +85,17 @@
     "expertise": "Expertiza",
     "careers": "Cariere",
     "contactus": "Contacteaza-ne",
-    "blog": "Blog"
+    "blog": "Blog",
+    "contactform": "contact"
   },
   "footer": {
     "company": "Company",
     "contact": "Contact",
     "newsletter": "NewsLetter",
-    "email": "contact@zmei.eu"
+    "email": "contact@zmei.eu",
+    "adress": "Flæsketorvet 68",
+    "adress2": "1711 København V",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy"
   }
 }

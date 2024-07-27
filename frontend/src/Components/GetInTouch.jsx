@@ -15,7 +15,7 @@ function GetInTouch() {
   const { t, i18n } = useTranslation("global");
 
   return (
-    <div data-aos="fade-up" className="mb-24 md:p-12 bg-gray-800 ">
+    <div data-aos="fade-up" className="mb-36   ">
       <div className="max-w-screen-xl mx-auto px-4 flex flex-col items-center text-center">
         <h1 className="text-3xl font-bold text-gray-200 mb-2">
           {t("getintouch.title")}

@@ -249,14 +249,26 @@ function LatestBlog() {
     <div
       data-aos="fade-up"
       data-aos-offset="200"
-      className="relative md:mt-6 flex items-center text-white from-gray-800 via-gray-700 to-gray-900"
+      className="relative md:mt-16 flex items-center text-white  from-gray-800 via-gray-700 to-gray-900"
     >
-      <div className="w-full pl-4 pr-4 ">
-        <h2 className="text-5xl text-gray-100 tracking-tight mb-8">
+      <div className="w-full    ml-20 mr-20 ">
+        <h2 className="md:w-6/12 text-5xl text-gray-100 tracking-tight mb-4">
           QA at its finest
         </h2>
-        <div className="flex flex-col  md:flex-row">
-          <div className="md:w-8/12 w-full mb-8 md:mb-0 ">
+        <h3 className="mb-20 text-gray-400 text-lg">
+          lorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
+          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
+          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
+          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
+          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
+          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
+          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
+          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
+          aici sa te gandesti neaparat la ceva ca mi-am dat seama ca are nevoie
+          de asta sit
+        </h3>
+        <div className="flex flex-col gap-2    md:flex-row">
+          <div className="md:w-8/12  w-full  ">
             {latestBlog.imageUrl && (
               <img
                 src={
@@ -269,7 +281,7 @@ function LatestBlog() {
               />
             )}
           </div>
-          <div className="md:w-4/12 w-full md:ml-4 relative">
+          <div className="md:w-4/12 w-full  relative">
             <h3 className="text-3xl  mb-2 text-gray-100">{latestBlog.title}</h3>
             <p className="text-gray-400">{latestBlog.textPreview}</p>
             <Link

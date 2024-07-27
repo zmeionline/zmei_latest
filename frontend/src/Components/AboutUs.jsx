@@ -95,41 +95,42 @@ function AboutUs() {
   return (
     <div
       data-aos="fade-up"
-      data-aos-offset="400"
-      className="relative min-h-screen flex items-center justify-center pt-28 pb-28"
+      data-aos-offset="250"
+      className="relative mt-40 mb-40 flex items-center justify-center  ml-20 mr-20 "
     >
       {/* Gradient pentru text */}
       <div className="absolute inset-0 z-0 bg-gradient-blue opacity-50"></div>
 
-      {/* Gradient pentru imagine */}
-      <div className="absolute inset-0 z-0 flex justify-end">
-        <div className="w-1/2 h-full bg-gradient-blue opacity-50"></div>
+      <div className="absolute inset-0 z-0 flex justify-end ">
+        <div className="w-2/2 h-full bg-gradient-blue opacity-50"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
-        <div className="lg:w-1/2 text-center lg:text-left">
-          <h2 className="text-base font-semibold tracking-wide text-blue-500 uppercase">
+      <div className="relative z-10   mx-auto   justify-center flex flex-col lg:flex-row items-center">
+        <div className=" w-4/5   text-center lg:text-left">
+          <h2 className="text-base tracking-wide text-blue-500 uppercase">
             {t("aboutus.title")}
           </h2>
-          <p className="mt-2 text-3xl leading-8  tracking-tight text-white sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8  tracking-tight text-white mb-2 sm:text-4xl">
             Our Story
           </p>
-          <div className="mt-10">
-            <div className="max-w-3xl mx-auto lg:mx-0 text-lg text-gray-400 ">
-              <p className="ui-sans-serif">{t("aboutus.text")}</p>
+          <div className="w-4/5  ">
+            <div className="  text-gray-400 text-lg ">
+              <p className="">{t("aboutus.text")}</p>
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 mt-10 lg:mt-0 flex justify-center  lg:justify-end">
+        <div className=" ">
           <img
             src={sampleImage}
             alt="Our Story"
-            className="w-96 h-auto rounded-lg shadow-lg relative z-10"
+            className="w-[40vw] h-auto rounded-md shadow-lg relative z-10"
           />
         </div>
       </div>
     </div>
   );
 }
+
+// w-[50vw]
 
 export default AboutUs;

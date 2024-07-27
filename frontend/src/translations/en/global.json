@@ -12,7 +12,7 @@
     "text": "Add me"
   },
   "email": {
-    "text": "At Zmei, we harness innovation and expertise to transform digital hurdles into pathways for growth. Discover how our expertise can elevate your digital journey.",
+    "text": " Discover how our expertise can elevate your digital journey.",
     "field": "Your e-mail"
   },
   "language": {
@@ -48,7 +48,7 @@
     "text": "The founders, Alex and Daniela, met in Copenhagen and, united by their passion for business, forged a strong friendship that became the foundation of Zmei. Recognizing the opportunity at the intersection of Scandinavian work culture and Romanian technical prowess, they envisioned a company that would address Denmark's IT personnel shortage with top Romanian talent, driving European growth."
   },
   "getintouch": {
-    "title": "How can we help you?",
+    "title": "How can we assist you?",
     "text": "Get in touch with us"
   },
   "contactUs": {
@@ -62,14 +62,19 @@
   "navbar": {
     "knowuss": "Get to know us",
     "expertise": "Expertise",
-    "careers": "Careerss",
+    "careers": "Careers",
     "contactus": "Contact Us",
-    "blog": "Blog"
+    "blog": "Blog",
+    "contactform": "contact"
   },
   "footer": {
     "company": "Company",
     "contact": "Contact",
     "newsletter": "NewsLetter",
-    "email": "contact@zmei.eu"
+    "email": "contact@zmei.eu",
+    "adress": "Flæsketorvet 68",
+    "adress2": "1711 København V",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy"
   }
 }

@@ -65,13 +65,18 @@
     "company": "Firma",
     "contact": "Kontakt",
     "newsletter": "Nyhedsbrev",
-    "email": "contact@zmei.eu"
+    "email": "contact@zmei.eu",
+    "adress": "Flæsketorvet 68",
+    "adress2": "1711 København V",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy"
   },
   "navbar": {
     "knowuss": "Lær os at kende",
     "expertise": "Ekspertise",
     "careers": "Karriere",
     "contactus": "Kontakt os",
-    "blog": "daneza"
+    "blog": "daneza",
+    "contactform": "contact"
   }
 }
