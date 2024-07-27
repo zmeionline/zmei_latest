@@ -255,7 +255,7 @@ function LatestBlog() {
         <h2 className="md:w-6/12 text-5xl text-gray-100 tracking-tight mb-4">
           QA at its finest
         </h2>
-        <h3 className="mb-20 text-gray-400 text-lg">
+        <h3 className="mb-20 text-gray-400 text-lg w-4/6">
           lorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
           sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
           sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
