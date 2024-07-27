@@ -255,7 +255,7 @@ function Carousel() {
 
   return (
     <div className="   ">
-      <div className="bg-blue-200 absolute left-20 w-1/2 top-40 lg:top-60    ">
+      <div className="bg-blue-200 absolute left-20 w-5/12 top-40 lg:top-60 ">
         {items.map((item, index) => (
           <div
             key={index}
