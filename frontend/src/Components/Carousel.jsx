@@ -270,7 +270,7 @@ function Carousel() {
           </div>
         ))}
       </div>
-      <p className=" absolute left-20  lg:top-72  mt-8   text-xl font-inter text-gray-900">
+      <p className=" absolute left-20  lg:top-72  mt-8  text-xl font-inter text-gray-900">
         {t("email.text")}
       </p>
       <p className="absolute left-20 top-60 lg:top-80  font-bold   mt-10 text-1xl cursor pointer text-blue-950   ">

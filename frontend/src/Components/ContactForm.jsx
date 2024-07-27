@@ -120,7 +120,7 @@ function ContactForm() {
             </div>
             <button
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center border border-gray-700 hover:border-blue-800 hover:text-blue-700 text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+              className="w-42 text-sm rounded-md pt-3 pb-3 pl-6 pr-6 border border-gray-600 hover:border-blue-600 text-gray-100 hover:bg-blue-600 transition-colors duration-300 "
             >
               {t("contactUs.button")}
             </button>

@@ -83,8 +83,8 @@ function Navbar() {
 
   return (
     <>
-      <nav className="border-gray-200 font-sans dark:border-gray-700 relative z-10 ml-4 md:ml-20 mr-4 md:mr-20">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className="border-gray-200 font-sans dark:border-gray-700 relative z-10 ml-4  mr-4  ">
+        <div className="sm:ml-16 sm:mr-16 flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"

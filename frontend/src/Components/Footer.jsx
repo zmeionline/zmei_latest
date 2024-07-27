@@ -224,7 +224,7 @@ const Footer = () => {
                 placeholder="Enter your email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full p-2 mb-4 bg-gray-800 border border-gray-700 focus:border-white focus:outline-none"
+                className="w-full p-2 mb-4 bg-gray-800 border border-gray-700 focus:border-blue-600 focus:outline-none"
               />
               <button
                 type="submit"
