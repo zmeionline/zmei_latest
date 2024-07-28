@@ -58,7 +58,10 @@
     "email": " Din email",
     "subject": "Emne",
     "message": "Din besked",
-    "button": " Send besked"
+    "button": " Send besked",
+    "email.field": "email@company.com",
+    "subject.field": "Titel",
+    "message.field": "Din besked"
   },
 
   "footer": {
@@ -68,8 +71,8 @@
     "email": "contact@zmei.eu",
     "adress": "Flæsketorvet 68",
     "adress2": "1711 København V",
-    "privacy": "Privacy Policy",
-    "cookie": "Cookie Policy"
+    "privacy": "Fortrolighedspolitik",
+    "cookie": "Cookie-politik"
   },
   "navbar": {
     "knowuss": "Lær os at kende",
@@ -77,6 +80,7 @@
     "careers": "Karriere",
     "contactus": "Kontakt os",
     "blog": "daneza",
-    "contactform": "contact"
+    "contactform": "contact",
+    "locations": "contact"
   }
 }

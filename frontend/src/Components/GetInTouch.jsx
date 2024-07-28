@@ -20,7 +20,9 @@ function GetInTouch() {
         <h1 className="text-3xl font-bold text-gray-200 mb-2">
           {t("getintouch.title")}
         </h1>
-        <p className="text-md text-gray-400">{t("getintouch.text")}</p>
+        <a href="/contactUs" className="text-blue-500 hover:underline">
+          {t("getintouch.text")}
+        </a>
       </div>
     </div>
   );

@@ -75,12 +75,71 @@
 
 // export default AboutUs;
 
-import React from "react";
+// import React from "react";
+// import "../App.css";
+// import sampleImage from "./zmei2poza.png";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import { useEffect } from "react";
+// import { useTranslation } from "react-i18next";
+
+// function AboutUs() {
+//   useEffect(() => {
+//     AOS.init({
+//       duration: 500, // durata animațiilor în milisecunde
+//     });
+//   }, []);
+
+//   const { t, i18n } = useTranslation("global");
+
+//   return (
+//     <div
+//       data-aos="fade-up"
+//       data-aos-offset="250"
+//       className="relative mt-40 mb-40 flex items-center justify-center  ml-20 mr-20 "
+//     >
+//       {/* Gradient pentru text */}
+//       <div className="absolute inset-0 z-0 bg-gradient-blue opacity-50"></div>
+
+//       <div className="absolute inset-0 z-0 flex justify-end ">
+//         <div className="w-2/2 h-full bg-gradient-blue opacity-50"></div>
+//       </div>
+
+//       <div className="relative z-10   mx-auto   justify-center flex flex-col lg:flex-row items-center">
+//         <div className=" w-4/5   text-center lg:text-left">
+//           <h2 className="text-base tracking-wide text-blue-500 uppercase">
+//             {t("aboutus.title")}
+//           </h2>
+//           <p className="mt-2 text-3xl leading-8  tracking-tight text-white mb-2 sm:text-4xl">
+//             Our Story
+//           </p>
+//           <div className="w-4/5  ">
+//             <div className="  text-gray-400 text-lg ">
+//               <p className="">{t("aboutus.text")}</p>
+//             </div>
+//           </div>
+//         </div>
+//         <div className=" ">
+//           <img
+//             src={sampleImage}
+//             alt="Our Story"
+//             className="w-[40vw] h-auto rounded-md shadow-lg relative z-10"
+//           />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// // w-[50vw]
+
+// export default AboutUs;
+
+import React, { useEffect } from "react";
 import "../App.css";
 import sampleImage from "./zmei2poza.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 function AboutUs() {
@@ -90,47 +149,43 @@ function AboutUs() {
     });
   }, []);
 
-  const { t, i18n } = useTranslation("global");
+  const { t } = useTranslation("global");
 
   return (
     <div
       data-aos="fade-up"
       data-aos-offset="250"
-      className="relative mt-40 mb-40 flex items-center justify-center  ml-20 mr-20 "
+      className="relative mt-40 mb-40 flex items-center justify-center ml-4 md:ml-20 mr-4 md:mr-20"
     >
       {/* Gradient pentru text */}
       <div className="absolute inset-0 z-0 bg-gradient-blue opacity-50"></div>
 
-      <div className="absolute inset-0 z-0 flex justify-end ">
-        <div className="w-2/2 h-full bg-gradient-blue opacity-50"></div>
+      <div className="absolute inset-0 z-0 flex justify-end">
+        <div className="w-full lg:w-1/2 h-full bg-gradient-blue opacity-50"></div>
       </div>
 
-      <div className="relative z-10   mx-auto   justify-center flex flex-col lg:flex-row items-center">
-        <div className=" w-4/5   text-center lg:text-left">
+      <div className="relative z-10 mx-auto flex flex-col lg:flex-row justify-between items-center">
+        <div className="w-full lg:w-1/2 text-left mb-8 lg:mb-0 lg:pr-10">
           <h2 className="text-base tracking-wide text-blue-500 uppercase">
             {t("aboutus.title")}
           </h2>
-          <p className="mt-2 text-3xl leading-8  tracking-tight text-white mb-2 sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 tracking-tight text-white mb-2 sm:text-4xl">
             Our Story
           </p>
-          <div className="w-4/5  ">
-            <div className="  text-gray-400 text-lg ">
-              <p className="">{t("aboutus.text")}</p>
-            </div>
+          <div className="text-gray-400 text-lg">
+            <p>{t("aboutus.text")}</p>
           </div>
         </div>
-        <div className=" ">
+        <div className="w-full lg:w-1/3 flex justify-center lg:justify-end lg:ml-10">
           <img
             src={sampleImage}
             alt="Our Story"
-            className="w-[40vw] h-auto rounded-md shadow-lg relative z-10"
+            className="w-full lg:w-[30vw] h-auto rounded-md shadow-lg"
           />
         </div>
       </div>
     </div>
   );
 }
-
-// w-[50vw]
 
 export default AboutUs;

@@ -77,7 +77,10 @@
     "email": "Email-ul tău",
     "subject": "Subiect",
     "message": "Mesajul tau",
-    "button": "Trimite mesaj"
+    "button": "Trimite mesaj",
+    "email.field": "email@company.com",
+    "subject.field": "Titlu",
+    "message.field": "Lasa un mesaj"
   },
 
   "navbar": {
@@ -86,16 +89,17 @@
     "careers": "Cariere",
     "contactus": "Contacteaza-ne",
     "blog": "Blog",
-    "contactform": "contact"
+    "contactform": "contact",
+    "locations": "locatii"
   },
   "footer": {
     "company": "Company",
     "contact": "Contact",
     "newsletter": "NewsLetter",
     "email": "contact@zmei.eu",
-    "adress": "Flæsketorvet 68",
+    "adress": "Bucuresti",
     "adress2": "1711 København V",
-    "privacy": "Privacy Policy",
-    "cookie": "Cookie Policy"
+    "privacy": "Politica de confidentialitate",
+    "cookie": "Politica Cookie"
   }
 }

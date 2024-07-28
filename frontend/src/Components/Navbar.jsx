@@ -231,7 +231,7 @@ function Navbar() {
                 </button>
                 {languageDropdownOpen && (
                   <div
-                    className="absolute right-0 mt-20 w-16 bg-white dark:bg-gray-900 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    className="absolute right-0 mt-44  w-16 bg-white dark:bg-gray-700 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="language-menu"

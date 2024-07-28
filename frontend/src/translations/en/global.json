@@ -53,11 +53,14 @@
   },
   "contactUs": {
     "title": "Contact Us",
-    "text": "Thank you for your interest. How can we assist you? Explore our expertise and services, or follow us on social media. For other inquiries, please fill out the contact form below and we'll get back to you as soon as possible",
+    "text": "Thank you for your interest. How can we assist you? Explore our expertise and services, or follow us on social media. For other inquiries, please fill out the contact form below and we'll get back to you as soon as possible.",
     "email": "Your email",
     "subject": "Subject",
     "message": "Your message",
-    "button": "Send message"
+    "button": "Send message",
+    "email.field": "email@company.com",
+    "subject.field": "title",
+    "message.field": "Your message"
   },
   "navbar": {
     "knowuss": "Get to know us",
@@ -65,7 +68,8 @@
     "careers": "Careers",
     "contactus": "Contact Us",
     "blog": "Blog",
-    "contactform": "contact"
+    "contactform": "contact",
+    "locations": "locations"
   },
   "footer": {
     "company": "Company",

@@ -251,7 +251,7 @@ function LatestBlog() {
       data-aos-offset="200"
       className="relative md:mt-16 flex items-center text-white  from-gray-800 via-gray-700 to-gray-900"
     >
-      <div className="w-full    ml-20 mr-20 ">
+      <div className="w-full  ml-4 mr-4  sm:ml-20 sm:mr-20 ">
         <h2 className="md:w-6/12 text-5xl text-gray-100 tracking-tight mb-4">
           QA at its finest
         </h2>
@@ -267,7 +267,7 @@ function LatestBlog() {
           aici sa te gandesti neaparat la ceva ca mi-am dat seama ca are nevoie
           de asta sit
         </h3>
-        <div className="flex flex-col gap-2    md:flex-row">
+        <div className="flex flex-col gap-2  md:flex-row">
           <div className="md:w-8/12  w-full  ">
             {latestBlog.imageUrl && (
               <img
