@@ -58,6 +58,7 @@ import BlogList from "./Components/Blog/BlogList";
 import BlogDetail from "./Components/Blog/BlogDetail";
 import GetToKnowUs from "./Components/GetToKnowUs";
 import AdminLogin from "./Components/AdminLogin";
+import Locations from "./Components/Locations";
 import { useEffect } from "react";
 
 const PrivateRoute = ({ element }) => {
@@ -88,6 +89,8 @@ function App() {
         <Route path="/gettoknowus" element={<GetToKnowUs />} />
         <Route path="/expertise" element={<Expertise />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="contactUs/locations" element={<Locations />} />
+
         <Route path="/blogs" element={<BlogList />} />
         <Route path="/blogs/:id" element={<BlogDetail />} />
 

@@ -24,6 +24,9 @@
   },
 
   "expertise": {
+    "element1": "Design",
+    "element2": "Proces",
+    "element3": "Teknisk",
     "h1": "Integrating Vision and Innovation with Strategic Insight and Technical Expertise",
     "h2": "Omdan udfordringer til muligheder med vores ekspertise inden for design, procesoptimering og implementering.",
     "design": "Design",
@@ -41,6 +44,18 @@
     "technical.software.text": "Kvalitetssikring er altafgørende for at kunne levere pålidelige og robuste softwareløsninger. Vores testtjenester omfatter funktions-, ydelses- og brugervenlighedstest, hvor vi bruger brancheførende værktøjer og metoder til at identificere og afbøde risici i hele produktets livscyklus.",
     "technical.architecture": "Software arkitektur",
     "technical.architecture.text": "Opbygning af et solidt arkitektonisk fundament er afgørende for at fremtidssikre softwareløsninger. Vores arkitektoniske ekspertise er designet til at sikre, at softwarekvaliteten opfylder forretningsmålene og den teknologiske køreplan."
+  },
+  "knowUs": {
+    "title": "Lær os at kende",
+    "text": "Vi er en international IT-konsulentvirksomhed, som hjælper samarbejdsvillige og innovative danske virksomheder på deres digitale rejse. Vores teams arbejder i Danmark og Rumænien og er dedikeret til at nå vores kunders mål og visioner. Vores ekspertise forstærkes af et dynamisk netværk af IT-professionelle, som gør det muligt for os at levere fremragende løsninger.",
+    "essence": "Vores essens",
+    "essence.text": "Vores essens ligger i vores engagement i ekspertise og integritet. Vi prioriterer kvalitet i alt, hvad vi gør, og sikrer, at vores værdier stemmer overens med vores handlinger. Vores kultur er bygget på et fundament af tillid, respekt og et fælles mål om at levere de bedst mulige resultater til vores kunder",
+    "ethics": "La Zmei, nu construim doar servicii; investim cu pasiune în viziunile noastre pentru de-a îmbunătăți domeniul IT și a modulul în care dorim să operăm în acest spațiu. Iubim această industrie pentru că este unul dintre puținele domenii în care se poate inova constant, unde fiecare provocare reprezintă o oportunitate de a depăși limitele și de a crea ceva extraordinar. De la sentimentul de satisfacție de pe urma rezolvării unor probleme complicate și complexe, la bucuria de a învăța și de a relaționa cu persoane care gândesc la fel, consultanța este locul în care strălucim cu adevărat. Credem în puterea Principiilor Agile, care ne ghidează printr-un peisaj mereu schimbător, cu adaptabilitate și eficiență. Credem în colaborarea sinceră, în iddea că succesul adevărat rezultă dintr-o viziune comună și un efort colectiv dar, mai presus de toate, credem în dezvoltarea împreună. Imaginează-ți un partener la fel de dedicat succesului tău, precum ești tu. Aceștia suntem noi.",
+    "ethics.text": "Etik er kernen i vores forretningspraksis. Vi overholder de højeste standarder for etisk adfærd i alle vores aktiviteter og interaktioner. Vores etiske rammer vejleder os i at træffe beslutninger, der er retfærdige, gennemsigtige og til gavn for alle involverede interessenter.",
+    "innovation": "Inovation",
+    "innovation.text": "Innovation driver vores fremskridt og former vores fremtid. Vi omfavner forandringer og søger hele tiden nye måder at forbedre vores tjenester og produkter på. Vores innovative ånd hjælper os med at være på forkant med udviklingen og levere løsninger, der opfylder vores kunders skiftende behov.",
+    "vision": "Vores vision er at være en katalysator for vækst og lighed i hele Europa.",
+    "mission": "Vores mission er at levere fremragende it-rådgivning ved at blande skandinavisk og rumænsk indsigt ogtalent."
   },
 
   "aboutus": {
@@ -63,8 +78,17 @@
     "subject.field": "Titel",
     "message.field": "Din besked"
   },
+  "locations": {
+    "title": "Lokationer",
+    "text": "Vores tilstedeværelse i Danmark og Rumænien giver os mulighed for effektivt at indsætte de rigtige teams med den perfekte blanding af erfaring og ekspertise. Mens vores teammedlemmer arbejder fra disse to hovedkontorer, udnytter vi også vores talentcentre til at understøtte ikke-konsulentroller på forskellige globale lokationer, hvilket sikrer problemfri og effektive løsninger for vores kunder.",
+    "adress": "Copenhagen: SOHO Offices,Flæsketorvet 68, 1, 1711 ",
+    "adress2": "Flæsketorvet 68, 1, 1711",
+    "adress3": "Bucharest:Str. Emanoil Porumbaru no. 8, 1, 011421"
+  },
 
   "footer": {
+    "aboutUs": "Om os",
+    "careers": "Karriere",
     "company": "Firma",
     "contact": "Kontakt",
     "newsletter": "Nyhedsbrev",
@@ -81,6 +105,6 @@
     "contactus": "Kontakt os",
     "blog": "daneza",
     "contactform": "contact",
-    "locations": "contact"
+    "locations": "Lokationer"
   }
 }

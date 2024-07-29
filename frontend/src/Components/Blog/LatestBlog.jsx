@@ -256,16 +256,12 @@ function LatestBlog() {
           QA at its finest
         </h2>
         <h3 className="mb-20 text-gray-400 text-lg w-4/6">
-          lorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
-          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
-          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
-          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
-          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
-          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
-          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
-          sitlorem ipsum dolor bla lorem lorem loream dasd loream lorem dolor
-          aici sa te gandesti neaparat la ceva ca mi-am dat seama ca are nevoie
-          de asta sit
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English.fact that a reader will be distracted by
+          the readable content of a page when looking at its layout.
         </h3>
         <div className="flex flex-col gap-2  md:flex-row">
           <div className="md:w-8/12  w-full  ">

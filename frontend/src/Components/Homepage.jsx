@@ -182,6 +182,129 @@
 
 // export default ComingSoon;
 
+// import React, { useState, useEffect } from "react";
+// import { useTranslation } from "react-i18next";
+// import axios from "axios";
+// import Navbar from "./Navbar";
+// import Carousel from "./Carousel";
+// import AboutUs from "./AboutUs";
+// import Footer from "./Footer";
+// import GetInTouch from "./GetInTouch";
+// import LatestBlog from "./Blog/LatestBlog";
+
+// function ComingSoon() {
+//   const [email, setEmail] = useState("");
+//   const [emails, setEmails] = useState([]);
+//   const { t, i18n } = useTranslation("global");
+//   const [currentLanguage, setCurrentLanguage] = useState(
+//     i18n.language.toUpperCase()
+//   );
+//   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+//   // const [isModalOpen, setIsModalOpen] = useState(false); // Initial state is false
+
+//   const handleReadMoreClick = () => {
+//     window.open("/terms-and-conditions", "_blank", "noopener,noreferrer");
+//   };
+
+//   useEffect(() => {
+//     // Load stored emails from Local Storage on component mount
+//     const storedEmails = JSON.parse(localStorage.getItem("emails")) || [];
+//     setEmails(storedEmails);
+
+//     // Get user's location and set language
+//     axios
+//       .get("/api/ip-location")
+//       .then((response) => {
+//         const country = response.data.country_name;
+//         if (country === "Romania") {
+//           handleChangeLanguage("ro");
+//         } else if (country === "Denmark") {
+//           handleChangeLanguage("da");
+//         } else {
+//           handleChangeLanguage("en");
+//         }
+//       })
+//       .catch((error) => {
+//         console.error("Error fetching IP location data:", error);
+//       });
+//   }, []);
+
+//   const handleChangeLanguage = (lang) => {
+//     setCurrentLanguage(lang.toUpperCase());
+//     i18n.changeLanguage(lang);
+//     setIsDropdownOpen(false);
+//   };
+
+//   const handleEmailChange = (e) => {
+//     setEmail(e.target.value);
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     const newEmails = [...emails, email];
+//     setEmails(newEmails);
+//     localStorage.setItem("emails", JSON.stringify(newEmails));
+
+//     fetch("/api/subscribe", {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//       body: JSON.stringify({ email: email }),
+//     })
+//       .then((response) => response.json())
+//       .then((data) => {
+//         alert(`Thank you for subscribing, ${email}!`);
+//         setEmail(""); // Resetează câmpul de email doar după succes
+//       })
+//       .catch((error) => {
+//         console.error("Error:", error);
+//       });
+//   };
+
+//   return (
+//     <>
+//       <Navbar />
+//       <div className="video-background absolute top-16 inset-0 w-full  overflow-hidden z-2">
+//         <video
+//           autoPlay
+//           muted
+//           loop
+//           className="w-full h-full object-cover"
+//           preload="metadata"
+//           poster="./video-poster.jpg"
+//         >
+//           <source src="./zmeifinal.mp4" type="video/mp4" />
+//           <source src="./zmeivid.webm" type="video/webm" />
+//           Your browser does not support the video tag.
+//         </video>
+//       </div>
+
+//       <div
+//         className="bg-cover bg-center  relative justify-center "
+//         style={{ minHeight: "100vh" }}
+//       >
+//         <div className="flex flex-col items-center pt-20 text-center justify-center">
+//           <Carousel />
+//         </div>
+
+//         <div className="text-gray-700 md:w-8/12">
+//           <h1 className="pt-16 md:pt-4 pl-4 md:pl-0 pb-4 md:pb-6 text-5xl md:text-6xl font-bold relative inline-block "></h1>
+
+//           <p className="relative text-xs ml-4 mr-4 md:ml-0 pt-4"></p>
+//         </div>
+//       </div>
+
+//       <LatestBlog />
+//       <AboutUs />
+//       <GetInTouch />
+//       <Footer />
+//     </>
+//   );
+// }
+
+// export default ComingSoon;
+
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
@@ -265,33 +388,27 @@ function ComingSoon() {
   return (
     <>
       <Navbar />
-      <div className="video-background absolute top-16 inset-0 w-full h-full overflow-hidden z-2">
-        <video
-          autoPlay
-          muted
-          loop
-          className="w-full h-full object-cover"
-          preload="metadata"
-          poster="./video-poster.jpg"
+      <div className="flex flex-col h-54">
+        <div
+          className="video-background flex-grow-0"
+          style={{ height: "80vh" }}
         >
-          <source src="./zmeifinal.mp4" type="video/mp4" />
-          <source src="./zmeivid.webm" type="video/webm" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-
-      <div
-        className="bg-cover bg-center  relative justify-center "
-        style={{ minHeight: "100vh" }}
-      >
-        <div className="flex flex-col items-center pt-20 text-center justify-center">
-          <Carousel />
+          <video
+            autoPlay
+            muted
+            loop
+            className="w-full h-full object-cover"
+            preload="metadata"
+            poster="./video-poster.jpg"
+          >
+            <source src="./zmeifinal.mp4" type="video/mp4" />
+            <source src="./zmeivid.webm" type="video/webm" />
+            Your browser does not support the video tag.
+          </video>
         </div>
 
-        <div className="text-gray-700 md:w-8/12">
-          <h1 className="pt-16 md:pt-4 pl-4 md:pl-0 pb-4 md:pb-6 text-5xl md:text-6xl font-bold relative inline-block "></h1>
-
-          <p className="relative text-xs ml-4 mr-4 md:ml-0 pt-4"></p>
+        <div className=" flex flex-col ">
+          <Carousel />
         </div>
       </div>
 

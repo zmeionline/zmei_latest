@@ -269,7 +269,7 @@ function Careers() {
               {positions.map((position, index) => (
                 <div
                   key={index}
-                  className="border border-gray-700 p-4 rounded-lg shadow-sm"
+                  className=" bg-gray-800 p-4 rounded-lg shadow-sm"
                 >
                   <h4 className="text-xl text-blue-600 font-semibold">
                     {position.title}

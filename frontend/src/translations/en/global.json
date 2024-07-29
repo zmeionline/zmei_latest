@@ -24,6 +24,9 @@
   },
 
   "expertise": {
+    "element1": "Design",
+    "element2": "Process",
+    "element3": "Technical",
     "h1": "Integrating Vision and Innovation with Strategic Insight and Technical Expertise",
     "h2": "Transform challenges into opportunities with our expertise in design, process optimization and implementation. ",
     "design": "Design",
@@ -41,6 +44,19 @@
     "technical.software.text": "Quality assurance is paramount in delivering reliable and resilient software solutions. Our testing services encompass functional, performance, and usability testing, utilizing industry-leading tools and methodologies to identify and mitigate risks throughout the product lifecyle.",
     "technical.architecture": "Software Architecture:",
     "technical.architecture.text": "Building a solid architectural foundation is critical for future-proofing software solutions. Our architectural expertise are designed to ensure that the software quality meets business objectives and technology roadmap."
+  },
+
+  "knowUs": {
+    "title": "Know us",
+    "text": "We are an international IT consulting company which helps collaborative and innovative Danish companies in their digital journeys. Our teams operate in Denmark and Romania, and are dedicated to achieving the goals and visions of our clients. Our expertise is enhanced by a dynamic network of IT professionals, allowing us to deliver excellence in our solutions.",
+    "essence": "Our Essence",
+    "essence.text": "Our essence lies in our commitment to excellence and integrity. We prioritize quality in everything we do and ensure that our values align with our actions. Our culture is built on a foundation of trust, respect, and a shared goal of delivering the best possible outcomes for our clients.",
+    "ethics": "La Zmei, nu construim doar servicii; investim cu pasiune în viziunile noastre pentru de-a îmbunătăți domeniul IT și a modulul în care dorim să operăm în acest spațiu. Iubim această industrie pentru că este unul dintre puținele domenii în care se poate inova constant, unde fiecare provocare reprezintă o oportunitate de a depăși limitele și de a crea ceva extraordinar. De la sentimentul de satisfacție de pe urma rezolvării unor probleme complicate și complexe, la bucuria de a învăța și de a relaționa cu persoane care gândesc la fel, consultanța este locul în care strălucim cu adevărat. Credem în puterea Principiilor Agile, care ne ghidează printr-un peisaj mereu schimbător, cu adaptabilitate și eficiență. Credem în colaborarea sinceră, în iddea că succesul adevărat rezultă dintr-o viziune comună și un efort colectiv dar, mai presus de toate, credem în dezvoltarea împreună. Imaginează-ți un partener la fel de dedicat succesului tău, precum ești tu. Aceștia suntem noi.",
+    "ethics.text": "Ethics are at the core of our business practices. We adhere to the highest standards of ethical conduct in all our operations and interactions. Our ethical framework guides us in making decisions that are fair,transparent, and beneficial for all stakeholders involved.",
+    "innovation": "Innovation",
+    "innovation.text": "Innovation drives our progress and shapes our future. We embrace change and continuously seek new ways to improve our services and products. Our innovative spirit helps us stay ahead of the curve and deliver solutions that meet the evolving needs of our clients.",
+    "vision": "Viziunea noastră este de a fi un catalizator pentru creștere și egalitate în întreaga Europă.",
+    "mission": "Misiunea noastră este să oferim excelență în consultanță IT, prin îmbinarea cunoștințelor și talentuluiscandinav și românesc."
   },
 
   "aboutus": {
@@ -71,7 +87,16 @@
     "contactform": "contact",
     "locations": "locations"
   },
+  "locations": {
+    "title": "Locations",
+    "text": "Our presence in Denmark and Romania allows us to efficiently deploy the right teams with the perfect blend of experience and expertise. While our team members operate from these two key offices, we also leverage our talent hubs to support non-consulting roles in various global locations, ensuring seamless and effective solutions for our clients.",
+    "adress": "Copenhagen: SOHO Offices,Flæsketorvet 68, 1, 1711 ",
+    "adress2": "Flæsketorvet 68, 1, 1711",
+    "adress3": "Bucharest:Str. Emanoil Porumbaru no. 8, 1, 011421"
+  },
   "footer": {
+    "aboutUs": "About us",
+    "careers": "Careers",
     "company": "Company",
     "contact": "Contact",
     "newsletter": "NewsLetter",

@@ -797,7 +797,7 @@ function Navbar() {
                         dropdownStates[item.key] ? "block" : "hidden"
                       } font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
                     >
-                      <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
+                      <ul className="py-2 text-sm text-gray-700 dark:text-gray-200 text-center">
                         {item.options.map((option, subIndex) => (
                           <li key={subIndex}>
                             <Link
@@ -835,13 +835,13 @@ function Navbar() {
                 </button>
                 {languageDropdownOpen && (
                   <div
-                    className="absolute right-0 mt-2 w-16 bg-white dark:bg-gray-700 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    className="absolute right-0 top-12 mt-2 w-16 bg-white dark:bg-gray-700 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="language-menu"
                     tabIndex="-1"
                   >
-                    <div className="py-1" role="none">
+                    <div className="py-1 " role="none">
                       <a
                         href="#"
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-800"

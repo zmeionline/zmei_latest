@@ -743,7 +743,7 @@ function Expertise() {
   const sections = [
     {
       id: "design",
-      title: "Design",
+      title: t("expertise.element1"),
       content: (
         <>
           <h2 className="text-4xl text-blue-500 mb-4">
@@ -772,7 +772,7 @@ function Expertise() {
     },
     {
       id: "process",
-      title: "Process",
+      title: t("expertise.element2"),
       content: (
         <>
           <h2 className="text-4xl mb-4 text-blue-500">
@@ -801,7 +801,7 @@ function Expertise() {
     },
     {
       id: "technical",
-      title: "Technical",
+      title: t("expertise.element3"),
       content: (
         <>
           <h2 className="text-4xl text-blue-500 mb-4">
