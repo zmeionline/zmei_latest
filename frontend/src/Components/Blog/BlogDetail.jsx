@@ -301,20 +301,22 @@ function BlogDetail() {
             <h2 className="text-3xl border-l-4 text-slate-300 border-l-blue-500 font-semibold mb-4 pl-2">
               {blog.title}
             </h2>
-            {blog.author && <p className="mt-2">Author: {blog.author}</p>}
+            {blog.author && (
+              <p className="mt-2 text-gray-500">Author: {blog.author}</p>
+            )}
             {blog.date && (
-              <p className="pb-2">
+              <p className="pb-2 text-gray-500">
                 Published on: {new Date(blog.date).toLocaleDateString()}
               </p>
             )}
             <p
-              className="text-gray-600"
+              className="text-gray-400"
               dangerouslySetInnerHTML={{
                 __html: formatTextWithNewline(blog.text),
               }}
             ></p>
             {blog.subtitle && (
-              <h3 className="text-xl font-semibold mt-4 mb-6">
+              <h3 className="text-xl text-gray-200 font-semibold mt-4 mb-6">
                 {blog.subtitle}
               </h3>
             )}
@@ -334,7 +336,7 @@ function BlogDetail() {
             )}
             {blog.additionalText && (
               <p
-                className="text-gray-600"
+                className="text-gray-400"
                 dangerouslySetInnerHTML={{
                   __html: formatTextWithNewline(blog.additionalText),
                 }}

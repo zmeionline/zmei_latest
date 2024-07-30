@@ -244,7 +244,7 @@ const GetToKnowUs = () => {
             {" "}
             {t("knowUs.essence")}
           </h3>
-          <p className="text-gray-300 text-lg leading-relaxed">
+          <p className="text-gray-400 text-lg leading-relaxed">
             {t("knowUs.essence.text")}
           </p>
         </div>
@@ -254,7 +254,7 @@ const GetToKnowUs = () => {
             <h3 className="text-2xl font-semibold mb-4 text-blue-500">
               Ethics
             </h3>
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-400 text-lg leading-relaxed">
               {t("knowUs.ethics.text")}
             </p>
           </div>
@@ -263,20 +263,20 @@ const GetToKnowUs = () => {
             <h3 className="text-2xl font-semibold mb-4 text-blue-500">
               {t("knowUs.innovation")}{" "}
             </h3>
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-400 text-lg leading-relaxed">
               {t("knowUs.innovation.text")}
             </p>
           </div>
         </div>
         <div className="  rounded-lg  duration-300 mb-8 ">
           <h3 className="text-2xl mb-4 text-blue-500">Vision</h3>
-          <p className="text-gray-300 text-lg leading-relaxed">
+          <p className="text-gray-400 text-lg leading-relaxed">
             {t("knowUs.vision")}
           </p>
         </div>
         <div className="  rounded-lg  duration-300 ">
           <h3 className="text-2xl mb-4 text-blue-500">Mission</h3>
-          <p className="text-gray-300 text-lg leading-relaxed">
+          <p className="text-gray-400 text-lg leading-relaxed">
             {t("knowUs.mission")}
           </p>
         </div>

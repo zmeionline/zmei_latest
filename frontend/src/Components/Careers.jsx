@@ -249,8 +249,8 @@ function Careers() {
       <div data-aos="fade-up" className="py-8 pt-10 pb-20">
         <div className="max-w-screen-lg mx-auto px-4">
           <section data-aos="fade-up" id="workplaceculture" className="mb-12">
-            <h3 className="text-2xl text-blue-600 mb-4">Workplace Culture</h3>
-            <p className="text-slate-300 text-lg">
+            <h3 className="text-2xl text-gray-200 mb-4">Workplace Culture</h3>
+            <p className="text-gray-400 text-lg">
               At Zmei, we cultivate an informal yet professional environment
               where we encourage everyone to bring their whole selves to work.
               We believe that embracing our entire selves is essential for
@@ -261,7 +261,7 @@ function Careers() {
             <h3 className="text-2xl font-normal text-gray-200 mb-3">
               Open Positions
             </h3>
-            <h2 className="text-xl text-gray-300 mb-6">
+            <h2 className="text-lg text-gray-400 mb-6">
               Are you looking for an exciting role that will both challenge and
               inspire you? Look no further.
             </h2>
@@ -286,7 +286,7 @@ function Careers() {
               ))}
             </div>
             <div className="border border-gray-700 p-4 rounded-lg shadow-sm mt-12">
-              <p className="text-slate-300 text-lg">
+              <p className="text-gray-400 text-lg">
                 We currently have no open positions. Please check back soon or
                 subscribe to our newsletter and LinkedIn for updates on future
                 opportunities.

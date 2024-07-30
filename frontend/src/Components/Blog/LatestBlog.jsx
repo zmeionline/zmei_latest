@@ -193,6 +193,7 @@ import { Link } from "react-router-dom";
 import "../../App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
 function LatestBlog() {
   useEffect(() => {
@@ -200,6 +201,7 @@ function LatestBlog() {
       duration: 500, // durata animațiilor în milisecunde
     });
   }, []);
+  const { t, i18n } = useTranslation("global");
 
   const [latestBlog, setLatestBlog] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -251,17 +253,12 @@ function LatestBlog() {
       data-aos-offset="200"
       className="relative md:mt-16 flex items-center text-white  from-gray-800 via-gray-700 to-gray-900"
     >
-      <div className="w-full  ml-4 mr-4  sm:ml-20 sm:mr-20 ">
-        <h2 className="md:w-6/12 text-5xl text-gray-100 tracking-tight mb-4">
-          QA at its finest
+      <div className="w-full  ml-4 mr-4 mt-3 sm:mt-0  sm:ml-20 sm:mr-20  ">
+        <h2 className="w-full md:w-6/12 text-3xl md:text-4xl text-gray-100 tracking-tight mb-4 font-thin">
+          {t("aboveBlog.title")}
         </h2>
-        <h3 className="mb-20 text-gray-400 text-lg w-4/6">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English.fact that a reader will be distracted by
-          the readable content of a page when looking at its layout.
+        <h3 className="mb-10 md:mb-20 text-gray-400 text-lg md:text-lg w-full md:w-4/6">
+          {t("aboveBlog.text")}
         </h3>
         <div className="flex flex-col gap-2  md:flex-row">
           <div className="md:w-8/12  w-full  ">

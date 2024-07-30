@@ -780,7 +780,7 @@ function Expertise() {
           </h2>
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl text-gray-300">
+              <h3 className="text-2xl text-gray-200">
                 {t("expertise.process.agile")}
               </h3>
               <p className="text-gray-400 mt-2">
@@ -788,7 +788,7 @@ function Expertise() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl text-gray-300">
+              <h3 className="text-2xl text-gray-200">
                 {t("expertise.process.software")}
               </h3>
               <p className="text-gray-400 mt-2">

@@ -231,10 +231,61 @@
 
 // export default Carousel;
 
+// import React, { useState, useEffect } from "react";
+// import { useTranslation } from "react-i18next";
+
+// function Carousel() {
+//   const [activeIndex, setActiveIndex] = useState(0);
+//   const items = [
+//     "We turn the challenges of your digital journey into opportunities",
+//     "Vi forvandler udfordringerne på din digitale rejse til muligheder",
+//     "Transformăm provocările călătoriei tale digitale în oportunități",
+//   ];
+//   const { t } = useTranslation("global");
+
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setActiveIndex((prevIndex) =>
+//         prevIndex === items.length - 1 ? 0 : prevIndex + 1
+//       );
+//     }, 3000); // Change text every 8 seconds
+
+//     return () => clearInterval(interval); // Clear interval on component unmount
+//   }, [items.length]);
+
+//   return (
+//     <div className="   ">
+//       <div className="bg-blue-200 absolute left-20 w-5/12 top-40 lg:top-60 ">
+//         {items.map((item, index) => (
+//           <div
+//             key={index}
+//             className={`absolute inset-0 flex items-center transition-opacity duration-1000  ${
+//               index === activeIndex ? "opacity-100" : "opacity-0"
+//             }`}
+//             style={{ width: "100%" }} // Ensures all texts are of the same width
+//           >
+//             <p className="text-5xl font-medium tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-[#060a1a] to-[#09379c] text-left ">
+//               {item}
+//             </p>
+//           </div>
+//         ))}
+//       </div>
+//       <p className=" absolute left-20  lg:top-72  mt-8  text-xl font-inter text-gray-900">
+//         {t("email.text")}
+//       </p>
+//       <p className="absolute left-20 top-60 lg:top-80  font-bold   mt-10 text-1xl cursor pointer text-blue-950   ">
+//         read more ↓
+//       </p>
+//     </div>
+//   );
+// }
+
+// export default Carousel;
+
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-function Carousel() {
+function Carousel({ scrollToAboutUs }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const items = [
     "We turn the challenges of your digital journey into opportunities",
@@ -248,32 +299,35 @@ function Carousel() {
       setActiveIndex((prevIndex) =>
         prevIndex === items.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // Change text every 8 seconds
+    }, 3000); // Change text every 3 seconds
 
     return () => clearInterval(interval); // Clear interval on component unmount
   }, [items.length]);
 
   return (
-    <div className="   ">
-      <div className="bg-blue-200 absolute left-20 w-5/12 top-40 lg:top-60 ">
+    <div className="">
+      <div className=" absolute sm:left-20 left-4 w-full   sm:w-5/12 top-80 sm:top-40 lg:top-60">
         {items.map((item, index) => (
           <div
             key={index}
-            className={`absolute inset-0 flex items-center transition-opacity duration-1000  ${
+            className={`absolute  inset-0 flex items-center transition-opacity duration-1000 ${
               index === activeIndex ? "opacity-100" : "opacity-0"
             }`}
             style={{ width: "100%" }} // Ensures all texts are of the same width
           >
-            <p className="text-5xl font-medium tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-[#060a1a] to-[#09379c] text-left ">
+            <p className="sm:text-5xl text-4xl  font-medium tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-[#060a1a] to-[#09379c] text-left">
               {item}
             </p>
           </div>
         ))}
       </div>
-      <p className=" absolute left-20  lg:top-72  mt-8  text-xl font-inter text-gray-900">
+      <p className="absolute   left-4 top-80 mt-20 mr-10 sm:mr-0  sm:top-0  sm:left-20 lg:top-72 sm:mt-8 text-xl font-inter text-gray-900">
         {t("email.text")}
       </p>
-      <p className="absolute left-20 top-60 lg:top-80  font-bold   mt-10 text-1xl cursor pointer text-blue-950   ">
+      <p
+        className="absolute sm:left-20 left-4 sm:top-60 top-80 mt-40 lg:top-80 font-bold sm:mt-10 text-1xl cursor-pointer text-blue-950"
+        onClick={scrollToAboutUs}
+      >
         read more ↓
       </p>
     </div>
