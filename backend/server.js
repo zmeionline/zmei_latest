@@ -10,7 +10,7 @@ const axios = require("axios");
 require("dotenv").config();
 
 const app = express();
-const port = 5000;
+// const port = 5000;
 
 // Middleware
 app.use(
@@ -371,8 +371,10 @@ app.get("/api/ip-location", async (req, res) => {
 });
 
 // Start the server
+const port = process.env.PORT || 3000;
+
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on ${port}`);
 });
 
 //////////////////////////////////////////////////////////
