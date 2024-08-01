@@ -267,7 +267,7 @@ function LatestBlog() {
                 src={
                   latestBlog.imageUrl.startsWith("/uploads/")
                     ? `https://zmei3-3ae010121032.herokuapp.com/${latestBlog.imageUrl}`
-                    : `https://zmei3-3ae010121032.herokuapp.com//uploads/${latestBlog.imageUrl}`
+                    : `https://zmei3-3ae010121032.herokuapp.com/uploads/${latestBlog.imageUrl}`
                 }
                 alt={latestBlog.title}
                 className="w-full h-full object-cover rounded-md shadow-lg"

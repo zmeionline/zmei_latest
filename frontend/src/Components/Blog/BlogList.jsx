@@ -104,7 +104,7 @@ function BlogList() {
     const fetchBlogs = async () => {
       try {
         const response = await fetch(
-          "https://zmei3-3ae010121032.herokuapp.com//api/blogs"
+          "https://zmei3-3ae010121032.herokuapp.com/api/blogs"
         );
         if (response.ok) {
           const data = await response.json();
