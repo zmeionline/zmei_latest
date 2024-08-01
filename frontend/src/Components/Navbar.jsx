@@ -671,7 +671,7 @@ function Navbar() {
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src="./Untitled-1.png" className="h-6 " alt="Zmei logo" />
+            <img src="./Untitled-1.png" className="h-5 " alt="Zmei logo" />
           </Link>
 
           <button

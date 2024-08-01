@@ -145,7 +145,7 @@ function BlogList() {
                     src={
                       blog.imageUrl.startsWith("/uploads/")
                         ? `https://zmei3-3ae010121032.herokuapp.com/${blog.imageUrl}`
-                        : `https://zmei3-3ae010121032.herokuapp.com//uploads/${blog.imageUrl}`
+                        : `https://zmei3-3ae010121032.herokuapp.com/uploads/${blog.imageUrl}`
                     }
                     alt={blog.title}
                     className="w-full md:w-1/3 h-40 object-cover rounded-sm mb-4 md:mb-0 md:mr-4"
