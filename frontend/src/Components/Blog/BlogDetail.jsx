@@ -248,7 +248,7 @@ function BlogDetail() {
     const fetchBlog = async () => {
       try {
         const response = await fetch(
-          `https://zmei-final-v2-zdqj.onrender.com/api/blogs/${id}`
+          `https://zmei3-3ae010121032.herokuapp.com/api/blogs/${id}`
         );
         if (response.ok) {
           const data = await response.json();
@@ -290,8 +290,8 @@ function BlogDetail() {
               <img
                 src={
                   blog.imageUrl.startsWith("/uploads/")
-                    ? `https://zmei-final-v2.onrender.com${blog.imageUrl}`
-                    : `https://zmei-final-v2.onrender.com/uploads/${blog.imageUrl}`
+                    ? `https://zmei3-3ae010121032.herokuapp.com/${blog.imageUrl}`
+                    : `https://zmei3-3ae010121032.herokuapp.com//uploads/${blog.imageUrl}`
                 }
                 alt={blog.title}
                 className="w-full h-90 object-cover object-center mb-6"
@@ -326,8 +326,8 @@ function BlogDetail() {
                 <img
                   src={
                     blog.extraImageUrl.startsWith("/uploads/")
-                      ? `https://zmei-final-v2-zdqj.onrender.com${blog.extraImageUrl}`
-                      : `https://zmei-final-v2-zdqj.onrender.com/uploads/${blog.extraImageUrl}`
+                      ? `https://zmei3-3ae010121032.herokuapp.com/${blog.extraImageUrl}`
+                      : `https://zmei3-3ae010121032.herokuapp.com/uploads/${blog.extraImageUrl}`
                   }
                   alt={`${blog.title} extra image`}
                   className="w-full h-90 object-cover object-center mb-6"

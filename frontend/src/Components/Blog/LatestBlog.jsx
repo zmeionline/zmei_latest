@@ -211,7 +211,7 @@ function LatestBlog() {
     const fetchLatestBlog = async () => {
       try {
         const response = await fetch(
-          "https://zmei-final-v2-zdqj.onrender.com/api/blogs"
+          "https://zmei3-3ae010121032.herokuapp.com//api/blogs"
         );
         if (response.ok) {
           const data = await response.json();
@@ -266,8 +266,8 @@ function LatestBlog() {
               <img
                 src={
                   latestBlog.imageUrl.startsWith("/uploads/")
-                    ? `https://zmei-final-v2-zdqj.onrender.com${latestBlog.imageUrl}`
-                    : `https://zmei-final-v2-zdqj.onrender.com/uploads/${latestBlog.imageUrl}`
+                    ? `https://zmei3-3ae010121032.herokuapp.com/${latestBlog.imageUrl}`
+                    : `https://zmei3-3ae010121032.herokuapp.com//uploads/${latestBlog.imageUrl}`
                 }
                 alt={latestBlog.title}
                 className="w-full h-full object-cover rounded-md shadow-lg"
