@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://zmei.eu/sitemap.xml
